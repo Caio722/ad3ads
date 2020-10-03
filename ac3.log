@@ -1,0 +1,84 @@
+2020-10-02T22:17:26.259247+00:00 app[api]: Release v1 created by user vini.caioo@hotmail.com
+2020-10-02T22:17:26.259247+00:00 app[api]: Initial release by user vini.caioo@hotmail.com
+2020-10-02T22:17:26.733199+00:00 app[api]: Enable Logplex by user vini.caioo@hotmail.com
+2020-10-02T22:17:26.733199+00:00 app[api]: Release v2 created by user vini.caioo@hotmail.com
+2020-10-02T22:18:02.000000+00:00 app[api]: Build started by user vini.caioo@hotmail.com
+2020-10-02T22:18:28.155718+00:00 app[api]: Release v3 created by user vini.caioo@hotmail.com
+2020-10-02T22:18:28.155718+00:00 app[api]: Deploy 3544b664 by user vini.caioo@hotmail.com
+2020-10-02T22:18:28.175548+00:00 app[api]: Scaled to web@1:Free by user vini.caioo@hotmail.com
+2020-10-02T22:18:30.999089+00:00 heroku[web.1]: Starting process with command `python msg.py`
+2020-10-02T22:18:33.786239+00:00 app[web.1]: * Serving Flask app "msg" (lazy loading)
+2020-10-02T22:18:33.786269+00:00 app[web.1]: * Environment: production
+2020-10-02T22:18:33.786269+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T22:18:33.786345+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T22:18:33.786346+00:00 app[web.1]: * Debug mode: off
+2020-10-02T22:18:33.794401+00:00 app[web.1]: * Running on http://0.0.0.0:14778/ (Press CTRL+C to quit)
+2020-10-02T22:18:35.306989+00:00 heroku[web.1]: State changed from starting to up
+2020-10-02T22:18:36.000000+00:00 app[api]: Build succeeded
+2020-10-02T22:19:12.963741+00:00 app[web.1]: 10.95.209.15 - - [02/Oct/2020 22:19:12] "GET / HTTP/1.1" 200 -
+2020-10-02T22:19:12.964706+00:00 heroku[router]: at=info method=GET path="/" host=ac3.herokuapp.com request_id=0b6a5fad-04b5-432c-8c16-f8f4c60d3ea9 fwd="187.57.96.205" dyno=web.1 connect=0ms service=3ms status=200 bytes=229 protocol=https
+2020-10-02T22:19:16.054288+00:00 app[web.1]: 10.95.209.15 - - [02/Oct/2020 22:19:16] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-02T22:19:16.055153+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3.herokuapp.com request_id=91eb04df-8c67-4e2f-9adf-4f208eaf015b fwd="187.57.96.205" dyno=web.1 connect=0ms service=16ms status=404 bytes=379 protocol=https
+2020-10-02T22:54:19.897395+00:00 heroku[web.1]: Idling
+2020-10-02T22:54:19.899042+00:00 heroku[web.1]: State changed from up to down
+2020-10-02T22:54:21.033159+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-02T22:54:21.116533+00:00 heroku[web.1]: Process exited with status 143
+2020-10-03T00:07:24.000000+00:00 app[api]: Build started by user vini.caioo@hotmail.com
+2020-10-03T00:07:46.987580+00:00 app[api]: Release v4 created by user vini.caioo@hotmail.com
+2020-10-03T00:07:46.987580+00:00 app[api]: Deploy 118d87e7 by user vini.caioo@hotmail.com
+2020-10-03T00:07:48.202183+00:00 heroku[web.1]: State changed from down to starting
+2020-10-03T00:07:51.667984+00:00 heroku[web.1]: Starting process with command `python msg.py`
+2020-10-03T00:07:54.767351+00:00 app[web.1]: * Serving Flask app "msg" (lazy loading)
+2020-10-03T00:07:54.767378+00:00 app[web.1]: * Environment: production
+2020-10-03T00:07:54.767378+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-03T00:07:54.767410+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-03T00:07:54.767440+00:00 app[web.1]: * Debug mode: off
+2020-10-03T00:07:54.796528+00:00 app[web.1]: * Running on http://0.0.0.0:47519/ (Press CTRL+C to quit)
+2020-10-03T00:07:55.950299+00:00 heroku[web.1]: State changed from starting to up
+2020-10-03T00:08:01.000000+00:00 app[api]: Build succeeded
+2020-10-03T00:09:10.251971+00:00 heroku[router]: at=info method=GET path="/" host=ac3.herokuapp.com request_id=8a9bc7da-f676-4b56-9a06-4fb31e8691f4 fwd="187.57.96.205" dyno=web.1 connect=0ms service=9ms status=200 bytes=566 protocol=https
+2020-10-03T00:09:10.252201+00:00 app[web.1]: 10.37.246.199 - - [03/Oct/2020 00:09:10] "GET / HTTP/1.1" 200 -
+2020-10-03T00:10:38.710051+00:00 app[web.1]: 10.150.193.19 - - [03/Oct/2020 00:10:38] "GET / HTTP/1.1" 200 -
+2020-10-03T00:10:38.711251+00:00 heroku[router]: at=info method=GET path="/" host=ac3.herokuapp.com request_id=00e4a788-2e7c-4926-851c-84ab07487797 fwd="187.57.96.205" dyno=web.1 connect=0ms service=8ms status=200 bytes=566 protocol=https
+2020-10-02T22:17:26.259247+00:00 app[api]: Release v1 created by user vini.caioo@hotmail.com
+2020-10-02T22:17:26.259247+00:00 app[api]: Initial release by user vini.caioo@hotmail.com
+2020-10-02T22:17:26.733199+00:00 app[api]: Enable Logplex by user vini.caioo@hotmail.com
+2020-10-02T22:17:26.733199+00:00 app[api]: Release v2 created by user vini.caioo@hotmail.com
+2020-10-02T22:18:02.000000+00:00 app[api]: Build started by user vini.caioo@hotmail.com
+2020-10-02T22:18:28.155718+00:00 app[api]: Release v3 created by user vini.caioo@hotmail.com
+2020-10-02T22:18:28.155718+00:00 app[api]: Deploy 3544b664 by user vini.caioo@hotmail.com
+2020-10-02T22:18:28.175548+00:00 app[api]: Scaled to web@1:Free by user vini.caioo@hotmail.com
+2020-10-02T22:18:30.999089+00:00 heroku[web.1]: Starting process with command `python msg.py`
+2020-10-02T22:18:33.786239+00:00 app[web.1]: * Serving Flask app "msg" (lazy loading)
+2020-10-02T22:18:33.786269+00:00 app[web.1]: * Environment: production
+2020-10-02T22:18:33.786269+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T22:18:33.786345+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T22:18:33.786346+00:00 app[web.1]: * Debug mode: off
+2020-10-02T22:18:33.794401+00:00 app[web.1]: * Running on http://0.0.0.0:14778/ (Press CTRL+C to quit)
+2020-10-02T22:18:35.306989+00:00 heroku[web.1]: State changed from starting to up
+2020-10-02T22:18:36.000000+00:00 app[api]: Build succeeded
+2020-10-02T22:19:12.963741+00:00 app[web.1]: 10.95.209.15 - - [02/Oct/2020 22:19:12] "GET / HTTP/1.1" 200 -
+2020-10-02T22:19:12.964706+00:00 heroku[router]: at=info method=GET path="/" host=ac3.herokuapp.com request_id=0b6a5fad-04b5-432c-8c16-f8f4c60d3ea9 fwd="187.57.96.205" dyno=web.1 connect=0ms service=3ms status=200 bytes=229 protocol=https
+2020-10-02T22:19:16.054288+00:00 app[web.1]: 10.95.209.15 - - [02/Oct/2020 22:19:16] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-02T22:19:16.055153+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3.herokuapp.com request_id=91eb04df-8c67-4e2f-9adf-4f208eaf015b fwd="187.57.96.205" dyno=web.1 connect=0ms service=16ms status=404 bytes=379 protocol=https
+2020-10-02T22:54:19.897395+00:00 heroku[web.1]: Idling
+2020-10-02T22:54:19.899042+00:00 heroku[web.1]: State changed from up to down
+2020-10-02T22:54:21.033159+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-02T22:54:21.116533+00:00 heroku[web.1]: Process exited with status 143
+2020-10-03T00:07:24.000000+00:00 app[api]: Build started by user vini.caioo@hotmail.com
+2020-10-03T00:07:46.987580+00:00 app[api]: Release v4 created by user vini.caioo@hotmail.com
+2020-10-03T00:07:46.987580+00:00 app[api]: Deploy 118d87e7 by user vini.caioo@hotmail.com
+2020-10-03T00:07:48.202183+00:00 heroku[web.1]: State changed from down to starting
+2020-10-03T00:07:51.667984+00:00 heroku[web.1]: Starting process with command `python msg.py`
+2020-10-03T00:07:54.767351+00:00 app[web.1]: * Serving Flask app "msg" (lazy loading)
+2020-10-03T00:07:54.767378+00:00 app[web.1]: * Environment: production
+2020-10-03T00:07:54.767378+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-03T00:07:54.767410+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-03T00:07:54.767440+00:00 app[web.1]: * Debug mode: off
+2020-10-03T00:07:54.796528+00:00 app[web.1]: * Running on http://0.0.0.0:47519/ (Press CTRL+C to quit)
+2020-10-03T00:07:55.950299+00:00 heroku[web.1]: State changed from starting to up
+2020-10-03T00:08:01.000000+00:00 app[api]: Build succeeded
+2020-10-03T00:09:10.251971+00:00 heroku[router]: at=info method=GET path="/" host=ac3.herokuapp.com request_id=8a9bc7da-f676-4b56-9a06-4fb31e8691f4 fwd="187.57.96.205" dyno=web.1 connect=0ms service=9ms status=200 bytes=566 protocol=https
+2020-10-03T00:09:10.252201+00:00 app[web.1]: 10.37.246.199 - - [03/Oct/2020 00:09:10] "GET / HTTP/1.1" 200 -
+2020-10-03T00:10:38.710051+00:00 app[web.1]: 10.150.193.19 - - [03/Oct/2020 00:10:38] "GET / HTTP/1.1" 200 -
+2020-10-03T00:10:38.711251+00:00 heroku[router]: at=info method=GET path="/" host=ac3.herokuapp.com request_id=00e4a788-2e7c-4926-851c-84ab07487797 fwd="187.57.96.205" dyno=web.1 connect=0ms service=8ms status=200 bytes=566 protocol=https
